@@ -1,11 +1,11 @@
 name: my_uvc_camera
 description: "A new Flutter plugin project."
-version: 0.0.1
+version: 1.0.0
 homepage:
 
 environment:
   sdk: ^3.8.1
-  flutter: '>=3.3.0'
+  flutter: ">=3.3.0"
 
 dependencies:
   flutter:
