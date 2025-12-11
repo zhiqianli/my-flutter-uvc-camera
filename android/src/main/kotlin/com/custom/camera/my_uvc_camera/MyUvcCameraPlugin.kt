@@ -21,7 +21,7 @@ class MyUvcCameraPlugin: FlutterPlugin, MethodCallHandler {
 
   override fun onMethodCall(call: MethodCall, result: Result) {
     if (call.method == "getPlatformVersion") {
-      result.success("Android（1.0.5）${android.os.Build.VERSION.RELEASE}")
+      result.success("Android（1.0.6）${android.os.Build.VERSION.RELEASE}")
     } else {
       result.notImplemented()
     }
